@@ -1,0 +1,54 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+
+}
+.album{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.bild{
+    width: 150px;
+    height: auto;
+}
+nav{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    color:white;
+    background-color: black;
+    height:100px;
+    text-align: center;
+}
+#skiva{
+    width: 70px;
+    height: auto;
+}
+#logo{
+    height: 70px;
+    margin: 20px;
+    border: solid black 5px;
+    text-align: center;
+}
+#dragon{
+    width: 150px;
+    height:600px;
+}
+aside{
+    border: solid black 3px;
+    padding:10px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
